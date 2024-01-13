@@ -1,0 +1,80 @@
+body
+{
+    background-color: chocolate;
+}
+#main_parent_div
+{
+    max-width: 900px;
+    border: 0px;
+    margin-left: 190px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 151, 79);
+    height: 350px;
+    border-radius: 10px;
+}
+#child1_div
+{
+    margin: 0 auto;
+    width: 150px;
+} 
+#child1_div label
+{
+    font-family: 'Arvo', serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+#child1_div input
+{
+    border-radius: 10px;
+    height: 25px;
+    padding: 5px;
+}
+#btndiv
+{
+    padding: 10px;
+}
+#subbtn 
+{
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(145, 75, 25);
+    color: whitesmoke;
+    height: 30px;
+    width: 60px;
+    font-family: 'Arvo', serif;
+    box-shadow: 3px 3px 3px rgb(85, 81, 88);
+}
+#restbtn
+{
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(145, 75, 25);
+    color: whitesmoke;
+    height: 30px;
+    width: 60px;  
+    margin-left: 10px; 
+    font-family: 'Arvo', serif; 
+    box-shadow: 3px 3px 3px rgb(85, 81, 88);
+}
+#child2_div
+{
+    margin: 0px auto;
+    width: 450px;
+}
+table tr:nth-child(even)
+{
+    background-color:rgb(184, 121, 77);
+}
+table
+{
+    row-gap: 10px;
+}
+#table th
+{
+    font-family: 'Arvo', serif;
+    font-weight: 800;
+    font-size: 19px;
+}
